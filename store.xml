@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE store_ghasemi [
+<!ELEMENT store_ghasemi (item_ghasemi+)>
+<!ELEMENT item_ghasemi (code_ghasemi+,name_ghasemi+,inventory_ghasemi+,place_ghasemi+,supplier_ghasemi*,opoint_ghasemi*,unitvalue_ghasemi+)>
+<!ELEMENT code_ghasemi (#PCDATA)>
+<!ELEMENT name_ghasemi (#PCDATA)>
+<!ELEMENT inventory_ghasemi (#PCDATA)>
+<!ELEMENT place_ghasemi (#PCDATA)>
+<!ELEMENT supplier_ghasemi (#PCDATA)>
+<!ELEMENT opoint_ghasemi (#PCDATA)>
+<!ELEMENT unitvalue_ghasemi (#PCDATA)>
+<!ATTLIST name_ghasemi language CDATA "english">
+]>
+<store_ghasemi>
+  <item_ghasemi>
+    <code_ghasemi>1</code_ghasemi>
+    <name_ghasemi language="English">bag</name_ghasemi>
+    <name_ghasemi language="Persian">کیف</name_ghasemi>
+    <inventory_ghasemi>number 1</inventory_ghasemi>
+    <place_ghasemi>tehran</place_ghasemi>
+    <supplier_ghasemi >azin</supplier_ghasemi>
+    <opoint_ghasemi>unknow</opoint_ghasemi>
+    <unitvalue_ghasemi>num</unitvalue_ghasemi>
+  </item_ghasemi>
+  <item_ghasemi>
+    <code_ghasemi>2</code_ghasemi>
+    <name_ghasemi language="English">shoe</name_ghasemi>
+    <name_ghasemi language="Persian">کفش</name_ghasemi>
+    <inventory_ghasemi>number 2</inventory_ghasemi>
+    <place_ghasemi>esfahan</place_ghasemi>
+    <supplier_ghasemi >nazin</supplier_ghasemi>
+    <opoint_ghasemi>unknow</opoint_ghasemi>
+    <unitvalue_ghasemi>num</unitvalue_ghasemi>
+  </item_ghasemi>
+  <item_ghasemi>
+    <code_ghasemi>3</code_ghasemi>
+    <name_ghasemi language="English">book</name_ghasemi>
+    <name_ghasemi language="Persian">کتاب</name_ghasemi>
+    <name_ghasemi language="French">Livre</name_ghasemi>
+    <inventory_ghasemi>number 3</inventory_ghasemi>
+    <place_ghasemi>tabriz</place_ghasemi>
+    <supplier_ghasemi >tazin</supplier_ghasemi>
+    <opoint_ghasemi>unknow</opoint_ghasemi>
+    <unitvalue_ghasemi>num</unitvalue_ghasemi>
+  </item_ghasemi>
+</store_ghasemi>
